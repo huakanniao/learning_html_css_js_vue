@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 颜色：
+        单词
+        RGB：0~F
+        RGBA：二进制，A:0-1
+    text-align:排版：居中
+    text-indent: 2em :段落首行缩进
+    height: 300px;
+    line-height: 300px
+        行高和块的高度一致，就可以上下居中-->
+    <style>
+        h1{
+            color:rgba(0, 0,255, 0.9);
+            text-align: center;
+        }
+        .p1{
+            text-indent: 2em;
+            
+        }
+        .p2{
+            background: chartreuse;
+            height: 300px;
+            line-height: 300px;
+            
+        }
+        /* 下划线 */
+        .l1{
+            text-decoration: underline;
+        }
+        /* 中划线 */
+        .l2{
+            text-decoration: line-through;
+        }
+        /* 上划线 */
+        .l3{
+            text-decoration: overline;
+        }
+        /* 超链接去下划线 */
+        a{
+            text-decoration: none;
+        }
+        /* <!-- 水平对齐~参照物， --> */
+        img,span{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <a href="">123</a>
+    <p class="l1">123123</p>
+    <p class="l2">123123</p>
+    <p class="l3">123123</p>
+    <h1>故事介绍</h1>
+    <p class="p1">在使用pandas库进行数据分析时，有时候会需要将object类型转换成数值类型(float,int)，那么如何做呢？</p>
+    <p>主要有以下三种方法：创建时指定类型，df.astype强制类型转换，以及使用pd.to_numeric() 转换成适当数值类型。</p>
+    <p class="p2">
+        When I wake up in the morning，
+    　　You are all I see;
+    　　When I think about you，
+    </p>
+    <p>
+        <img src="images/aeca57e6784b586f03e57bc0a11023f.png" alt="">
+        <span>askdsjfls;dkasldka;slkdas</span>
+    </p>
+    
+</body>
+</html>
